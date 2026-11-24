@@ -1,0 +1,18 @@
+//declaring variable
+const AccountId = 144553 
+let AccountEmail = "Ramji@google.com"
+var AccountPassword = "12345"
+AccountCity = "Jhansi"
+let accountState ;
+// AccountId = 2 so you could not change constant value 
+AccountEmail = 'ram@.com'
+AccountPassword = " 2121"
+AccountCity = "Benguluru"
+
+console.log(AccountId);
+console.table([AccountEmail,AccountPassword,AccountCity,accountState])
+
+/*
+Prefer not to use var
+beacause issue in block scope and functional scope 
+*/
